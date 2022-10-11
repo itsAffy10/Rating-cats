@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="test.css">
+    <title>Cat person</title>
+    <script>
+        function validatePass() {
+          if (document.getElementById("pwd").value == "catisalwaysright") {
+            return true;
+          } else {
+            alert("meow's not impressed 😾");
+            return false;
+          }
+        }
+      </script>
+    <body>
+        <h2 id="hello">Hello cat person!</h2>
+            <form
+            method="GET"
+            action="surprise.html"
+            class="catForm"
+            onsubmit="return validatePass()"
+          >
+            <div>
+              <label for="pwd">What's the password? (16 characters)</label>
+              <input type="password" name="pwd" id="pwd" required />
+              <span> </span>
+            </div>
+            <div>
+              <button type="submit" style="height: 50px; width: 100px; font-size: 25px;">Submit</button>
+            </div>
+          </form>
+    <div style="text-align:center;">
+      <img src="waiting-cat-gif.gif" height="300">
+    </div>     
+    
+    </body>

@@ -1,0 +1,45 @@
+#whatcat {
+    text-align: center; 
+    color: hotpink; 
+    font-size: 50px;
+}
+
+div {padding-left: 50px;}  
+
+.catForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #clickhere {
+    align-content: center;
+    color: rgb(64, 239, 0);
+    font-size: 20px;
+  }
+  .catForm div {
+    padding: 20px;
+    margin: 5px 10px;
+  }
+.catForm label {
+    font-size: 25px;
+}
+#specialmentions {
+  color: rgb(255, 0, 89);
+}
+ #hello {
+    text-align: center;
+    font-size: 60px;
+ }
+
+#mysurprise {
+align-items: center;
+text-align: center;
+}
+#orangecat {
+  padding-left: 50px;
+}
+
+.catto {
+  text-align: center;
+}
